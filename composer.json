@@ -1,5 +1,5 @@
 {
-    "name": "elgentos/module-addtelephoneinputtype",
+    "name": "elgentos/module-checkouttelephoneinputtype",
     "description": "Add the telephone input type to the checkout",
     "type": "magento2-module",
     "license": "MIT",
