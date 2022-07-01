@@ -1,0 +1,15 @@
+<input class="input-text" id="telephone" autocomplete="anystringbutnotoff"
+       type="tel" name="telephone" data-validate="{required:true}"
+       data-bind="
+            value: value,
+            valueUpdate: 'keyup',
+            hasFocus: focused,
+            attr: {
+                name: inputName,
+                placeholder: placeholder,
+                'aria-describedby': getDescriptionId(),
+                'aria-required': required,
+                'aria-invalid': error() ? true : 'false',
+                id: uid,
+                disabled: disabled
+    }"/>

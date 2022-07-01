@@ -1,0 +1,22 @@
+{
+    "name": "elgentos/module-addtelephoneinputtype",
+    "description": "Add the telephone input type to the checkout",
+    "type": "magento2-module",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andrew",
+            "email": "andrew@elgentos.nl"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "src/registration.php"
+        ],
+        "psr-4": {
+            "Elgentos\\DisableCheckoutAutocomplete\\": "src/"
+        }
+    }
+}
